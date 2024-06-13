@@ -12,6 +12,7 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Menu from './pages/Menu'
 import About from './pages/About'
+import ProductDetail from './pages/ProductDetail'
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/menu' element={<Menu />} />
         <Route path='/about' element={<About />} />
+        <Route path='/detail/:id' element={<ProductDetail />} />
       </Routes>
 
     </>

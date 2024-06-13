@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 function Features() {
 
@@ -39,11 +40,12 @@ function Features() {
                             features.map((feature, index) => {
                                 return (
                                     <>
-                                        <div className="col-md-4 pt-5">
+                                        <div className="col-md-4 pt-5 " key={index}>
                                             <div className="row">
                                                 <div className="col-md-9">
                                                     <h4>{feature.title}</h4>
                                                     <p className="text-secondary fst-italic">{feature.desc}</p>
+                                                    <Link to={`/detail/${feature.id}`} className="btn btn-warning btn-sm">View Detail</Link>
                                                 </div>
                                                 <div className="col-md-3">
                                                     <h6 className="text-danger">{feature.price}</h6>

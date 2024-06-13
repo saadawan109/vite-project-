@@ -30,11 +30,12 @@ function Categories() {
                             categories.map((category,index)=>{
                                 return(
                                     <>
-                                        <div className="col-md-4">
+                                        <div className="col-md-4" key={index}>
                                             <div className="top_img">
                                                 <img src={category.Image} alt="" className="img-fluid category_img"/>
                                             </div>
                                             <h2 className="text-center">{category.name}</h2>
+                                             
                                         </div>
                                     </>
                                 )
