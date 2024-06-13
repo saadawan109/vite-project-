@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import logo from '../assets/images/logo.png'
 
 function Navbar(){
@@ -23,14 +24,19 @@ function Navbar(){
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0 text-center">
         <li className="nav-item">
-          <a className="nav-link active text-white" aria-current="page" href="#">
+          <Link className="nav-link active text-white" aria-current="page" to="/">
             Home
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link text-white" href="#">
+          <Link className="nav-link text-white" to="/menu">
             Menu
-          </a>
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link text-white" to="/about">
+            About Us
+          </Link>
         </li>
         <li className="nav-item dropdown">
           <a

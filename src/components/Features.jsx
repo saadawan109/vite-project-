@@ -13,8 +13,8 @@ function Features() {
             .then((response) => {
                 setFeatures(response.data);
             })
-            .catch(function (abc) {
-                alert("abc")
+            .catch(function (error) {
+                console.log(error);
             })
             .finally(function () {
             
