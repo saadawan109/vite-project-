@@ -1,0 +1,58 @@
+.form-control{
+    background-color: black !important;
+    color: white !important;
+}
+
+
+/** Head Section CSS **/
+
+
+.pic_div{
+    background-color: #ffd98e;
+    height: 90vh;
+}
+.head_img{
+    padding-top: 85px;
+}
+.head_wholeText{
+    padding-top: 120px;
+}
+.head_text{
+    font-size: 40px;
+}
+.head_para{
+    font-weight: 400;
+}
+.btn1{
+    font-size: small;
+    
+}
+.btn2{
+    font-size: small;
+    
+}
+
+
+/** Icons CSS **/
+
+.icon{
+    background-color: #f0a91b;
+    border-radius: 100%;
+    padding: 10px;
+    position: relative;
+    box-shadow: -5px 0px 0px 1px   rgb(217, 215, 215);
+
+}
+
+
+
+/** Categories CSS **/
+
+
+
+.top_img{
+    padding: 60px;
+}
+.category_img{
+    border-radius: 100%;
+}
