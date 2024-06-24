@@ -7,9 +7,9 @@ function Navbar(){
 
 <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
   <div className="container">
-    <a className="navbar-brand" href="#">
+    <Link className="navbar-brand" to="/">
       <img src={logo} alt="" />
-    </a>
+    </Link>
     <button
       className="navbar-toggler"
       type="button"
