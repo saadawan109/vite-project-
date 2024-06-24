@@ -20,7 +20,7 @@ function Features() {
             .finally(function () {
             
             });
-    })
+    },[])
 
 
 

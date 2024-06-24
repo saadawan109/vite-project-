@@ -38,6 +38,21 @@ function Navbar(){
             About Us
           </Link>
         </li>
+        <li className="nav-item">
+          <Link className="nav-link text-white" to="/productadd">
+            Create Product
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link text-white" to="/dashboard">
+            Dashboard
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link text-white" to="/edit">
+            Edit
+          </Link>
+        </li>
         <li className="nav-item dropdown">
           <a
             className="nav-link dropdown-toggle text-white"
